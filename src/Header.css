@@ -1,0 +1,40 @@
+.Header__left>img{
+    object-fit: contain;
+    height:40px;
+    margin-right: 10px;
+    
+}
+.Header{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 0.5px solid #eef3f8;
+    justify-content: space-evenly;
+    top: 0;
+    position:sticky;
+    z-index: 999;
+    background-color: white
+
+}
+.Header__right{
+    display: flex;
+    align-items: center;
+    
+}
+.Header__left{
+    display: flex;
+    align-items:center;
+}
+.Header__input{
+    display: flex;
+    align-items:center;
+    color:gray;
+    background-color:#eef3f8;
+    padding:10px;
+    border-radius:5px;
+}
+.Header__input>input{
+    border:none;
+    outline:none;
+    background: 0;
+}

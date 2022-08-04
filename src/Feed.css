@@ -1,0 +1,41 @@
+.Section__btn{
+display: none ;
+}
+.Section__top{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+   
+ margin-bottom:10px;
+    align-items: center;
+    
+}
+.Section__input{
+    display: flex;
+    align-items: center;
+    background-color:#eef3f8;
+    padding:10px;
+    border-radius: 44px;
+    flex:1;
+    cursor: pointer;
+}
+.Section__input>form>input{
+    border:none;
+    outline: none;
+    background:transparent;   
+
+}
+
+.Feed{
+    flex:0.6;
+    margin:0 20px;
+}
+.section__icon{
+    color:gray;
+    margin-right: 5px;
+}
+.Section__options{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:20px
+}
