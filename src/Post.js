@@ -12,7 +12,10 @@ const Post=forwardRef(({name,description,message,photoURL},ref)=> {
   return (
     <div className='Post' ref={ref}>
     <div className='post__header'>
-    <Avatar src={photoURL}>{name[0]}</Avatar>
+    {photoURL ?
+          <Avatar src={photoURL} /> :
+          <Avatar >{name}</Avatar>
+        }
     <div className='Hedear__infos'>
     <h3>{name}</h3>
     <p>{description}</p>
